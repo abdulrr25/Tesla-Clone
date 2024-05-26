@@ -1,0 +1,43 @@
+.mainmenu {
+    &:hover .submenu{
+        display: flex;
+        background-color: white;
+        padding: 100px;
+        transition-timing-function:ease-in ;
+    }
+}
+
+.submenu {
+    display: none;
+    
+    
+}
+
+// .connectButton {
+//     width: 152px;
+//     height: 36px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     border-radius: 20px;
+//     font-size: 14px;
+//     font-weight: 600;
+//     color: white;
+//     cursor: pointer;
+//     position: relative;
+//     &:hover .wrongNetworkContent {
+//       display: block;
+//     }
+//   }
+//   .wrongNetworkWrapper {
+//     position: absolute;
+//     top: 36px;
+//     width: 272px;
+//     right: 0;
+//   }
+//   .wrongNetworkContent {
+//     background: $bgColor;
+//     margin-top: 18px;
+//     border-radius: 10px;
+//     padding: 24px;
+//     display: none;
