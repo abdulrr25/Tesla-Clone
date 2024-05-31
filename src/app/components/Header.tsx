@@ -245,9 +245,9 @@ import "./Header.scss";
         </div>
         <div>
           <ul className='flex flex-row hover:cursor-pointer pt-6 px-6 gap-3'>
-            <button><TfiWorld className="w-5 h-5 relative z-10"/></button>
-            <button><BsQuestionCircle className="w-5 h-5 relative z-10"/></button>
-            <button><FaRegUserCircle className="w-5 h-5 relative z-10"/></button>
+            <li className="w-5 h-5 relative z-10"><TfiWorld /></li>
+            <li className="w-5 h-5 relative z-10"><BsQuestionCircle /></li>
+            <li className="w-5 h-5 relative z-10"><FaRegUserCircle /></li>
           </ul>
         </div>
       </div>
