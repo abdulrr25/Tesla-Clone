@@ -1,4 +1,6 @@
-  import { BsQuestionCircle } from "react-icons/bs";
+"use client"
+
+import { BsQuestionCircle } from "react-icons/bs";
 import { FaRegUserCircle } from "react-icons/fa";
 import { TfiWorld } from "react-icons/tfi";
 import "./Header.scss";
