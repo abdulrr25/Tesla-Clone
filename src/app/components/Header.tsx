@@ -1,5 +1,4 @@
 "use client"
-
 import { BsQuestionCircle } from "react-icons/bs";
 import { FaRegUserCircle } from "react-icons/fa";
 import { TfiWorld } from "react-icons/tfi";
@@ -173,8 +172,8 @@ import "./Header.scss";
 
             <li className="mainmenu hover:cursor-pointer ">
               <p className="relative z-10">Discover</p>
-              <div className="submenu absolute top-0 left-0 right-0 w-full bg-white flex flex-row justify-evenly">
-                <div className="flex flex-col items-center  mt-5">
+              <div className="submenu absolute  top-0 left-0 right-0 w-full bg-white justify-evenly">
+                <div className="flex flex-col items-center mt-5">
                   <ul >
                     <h1 className="text-light text-[#66686C] text-bold  mb-5">Resources</h1>
                     <li>Demo Drive</li>
@@ -210,7 +209,7 @@ import "./Header.scss";
 
             <li className="mainmenu hover:cursor-pointer ">
               <p className="relative z-10">Shop</p>
-              <div className="submenu absolute  top-0 left-0 right-0 w-full bg-white flex flex-row justify-between">
+              <div className="submenu absolute  top-0 left-0 right-0 w-full bg-white ">
                   
                   <div className="flex flex-col items-center text-center ">
                     <img src="/Chargingn.png" alt="" width={225} height={225} className="mb-2" />
@@ -247,9 +246,9 @@ import "./Header.scss";
         </div>
         <div>
           <ul className='flex flex-row hover:cursor-pointer pt-6 px-6 gap-3'>
-            <li className="w-5 h-5 relative z-10"><TfiWorld /></li>
-            <li className="w-5 h-5 relative z-10"><BsQuestionCircle /></li>
-            <li className="w-5 h-5 relative z-10"><FaRegUserCircle /></li>
+            <li ><TfiWorld className="w-5 h-5 relative z-10"/></li>
+            <li ><BsQuestionCircle className="w-5 h-5 relative z-10"/></li>
+            <li ><FaRegUserCircle className="w-5 h-5 relative z-10"/></li>
           </ul>
         </div>
       </div>
